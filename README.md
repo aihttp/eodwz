@@ -1,12 +1,20 @@
 # 基于腾讯云 EdgeOne Pages 的短网址生成工具
 
-[![Deploy with EdgeOne Pages](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?from=github&template=https://github.com/aihttp/eolocation)
+#### 一键部署到腾讯云大陆
+[![Deploy with EdgeOne Pages](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://console.cloud.tencent.com/edgeone/pages/new?from=github&template=https://github.com/aihttp/eodwz)
+
+#### 一键部署到腾讯云国际（edgeone.ai）
+[![Deploy with EdgeOne Pages](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?from=github&template=https://github.com/aihttp/eodwz)
 
 使用 EdgeOne Pages 边缘函数搭建的短网址跳转平台
 
+
 **短链生成**: 支持自定义或随机短链接标识符；
+
 **访问统计**: 实时跟踪短链接的访问次数；
+
 **管理界面**: Web 界面管理所有短链接
+
 
 支持灵活配置各项环境变量：管理路径、管理密码、网站统计JS
 
@@ -19,7 +27,7 @@
 - **简单部署**: 只需最少的设置，配置 KV 绑定并部署函数即可
 
 
-### 部署步骤
+### 手动部署步骤
 
 【一】Fork本项目到你的仓库，在EO控制台创建项目-导入项目-框架预设 [Next] - 填写环境变量 - 开始部署
 
