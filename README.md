@@ -1,8 +1,12 @@
 # 基于腾讯云 EdgeOne Pages 的短网址生成工具
 
-使用 EdgeOne Pages 边缘函数搭建短链接跳转平台，并部署到 EO边缘节点
+[![Deploy with EdgeOne Pages](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?from=github&template=https://github.com/aihttp/eolocation)
 
-**短链生成**: 支持自定义或随机短链接标识符；**访问统计**: 实时跟踪短链接的访问次数；**管理界面**: Web 界面管理所有短链接
+使用 EdgeOne Pages 边缘函数搭建的短网址跳转平台
+
+**短链生成**: 支持自定义或随机短链接标识符；
+**访问统计**: 实时跟踪短链接的访问次数；
+**管理界面**: Web 界面管理所有短链接
 
 支持灵活配置各项环境变量：管理路径、管理密码、网站统计JS
 
